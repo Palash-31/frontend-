@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Pizzahut</title>
+    <style>
+        .container {
+            background-image: url(/assets/app-bg.9637f025c0a8602011051ed056e61616.jpg);
+
+
+        }
+
+        .card:hover {
+            box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .nav-box {
+            color: black;
+            font-size: 1.07rem;
+            min-width: 110px;
+        }
+
+        .nav-item :hover {
+            color: #fff;
+            background-image: url(/assets/hover.jpg);
+        }
+
+        .footer {
+            width: 100%;
+            height: 472px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: justify;
+        }
+
+
+        ul li {
+            width: 12pc;
+            text-align: center;
+        }
+
+        .btn,
+        .btn-block {
+
+            background-color: #008000;
+            color: white;
+
+
+        }
+
+        .btn-block:hover {
+            background-color: grey;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="https://www.pizzahut.co.in/_next/static/static/images/logo.38f9109e24d22d58d048837b27f54390.png"
+            width="200px" style=" padding: 20px; margin-left: 100px;">
+    </div>
+    <div class="container-fluid" style="border: 1px solid black;">
+        <div class="row" style="padding-left: 100px;font-size: 28px;">
+            <ul class="nav justify-content-space-around border-box;">
+                <li class="nav-item"
+                    style="border-right: 1px solid rgb(230,230,230);font-weight: bold;border-left: 1px solid rgb(244, 244, 244);">
+                    <a class="nav-link nav-box" href="#">Pizzas</a>
+                </li>
+                <li class="nav-item" style="border-right: 1px solid rgb(230,230,230);font-weight: bold;">
+                    <a class="nav-link nav-box" href="#">Sides</a>
+                </li>
+                <li class="nav-item" style="border-right: 1px solid rgb(230,230,230);font-weight: bold;">
+                    <a class="nav-link nav-box" href="#">Desserts</a>
+                </li>
+                <li class="nav-item" style="border-right: 1px solid rgb(230,230,230);font-weight: bold;">
+                    <a class="nav-link nav-box" href="#">Drinks</a>
+                </li>
+                <li class="nav-item" style="border-right: 1px solid rgb(230,230,230);font-weight: bold;">
+                    <a class="nav-link nav-box" href="#">Deals</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container" style="padding: 30px;">
+        <div class="col-lg-12">
+            <h2 class="text-center">Our Deals</h2><br>
+            <p class="text-center">Check out the latest meal deals available from Pizza Hut</p><br>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card" style="width:260px">
+                    <img class="card-img-top"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/momo-mia-veg.5f34ea52c10db4a56881051692a618ca.1.jpg?width=251"
+                        alt="pizza he pizza" style="width:100%">
+                    <div class="card-body">
+                        <h6 class="card-title">Momo Mia Pizza-Veg</h6>
+                        <p class="card-text">Epic combination of signature pan crust, delicious paneer & veg momos
+                            topped with spicy Schezwan sauce, onion, capsicum, sweet corn & 100% mozzarella</p>
+                        <br><br>
+                        
+                    </div>
+                    <button type="button" class="btn btn-block ">view more</button>
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card" style="width:260px">
+                    <img class="card-img-top"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/momo-mia-non-veg.bfd96b4a31f0246703333a3feac75f4c.1.jpg"
+                        alt="pizza he pizza" style="width:100%">
+                    <div class="card-body">
+                        <h6 class="card-title">Momo Mia Pizza-Non Veg</h6>
+                        <p class="card-text">Epic combination of signature pan crust, delicious chicken momos topped
+                            with spicy Schezwan sauce, Schezwan meatballs, onion, capsicum & 100% mozzarella</p>
+                        <br><br>
+                        
+                    </div>
+                    <button type="button" class="btn btn-block ">view more</button>
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card" style="width:260px">
+                    <img class="card-img-top"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/schezwan-margherita.4371d9483546db47a97c5503ccad0c2f.1.jpg"
+                        alt="pizza he pizza" style="width:100%">
+                    <div class="card-body">
+                        <h6 class="card-title">Schezwan Margherita</h6>
+                        <p class="card-text">Your very own Margherita, now with a spicy twist! Loaded with our signature
+                            spicy schezwan sauce & 100% mozzarella cheese.</p>
+                        <br><br><br>
+                        
+                    </div>
+                    <button type="button" class="btn btn-block ">view more</button>
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card" style="width:260px">
+                    <img class="card-img-top"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/mazedar-makhni-paneer.cb3150d2be9cb8dcd248be70921c5196.1.jpg?width=251"
+                        alt="pizza he pizza" style="width:100%">
+                    <div class="card-body">
+                        <h6 class="card-title">Mazedar Makhni Paneer</h6>
+                        <p class="card-text">A treat for all makhni lovers. Spiced paneer, onion, juicy red bell peppers
+                            with our new flavourful makhni sauce, topped with 100% mozzarella cheese and buttery spice
+                            sprinkle</p>
+                        <br>
+                       
+
+                    </div>
+                    <button type="button" class="btn btn-block ">view more</button>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card" style="width:260px">
+                    <img class="card-img-top"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/awesome-american-cheesy.17f198e5a73db40c367ddfe96da54a4c.1.jpg"
+                        alt="pizza he pizza" style="width:100%">
+                    <div class="card-body">
+                        <h6 class="card-title">Awesome American Cheesy</h6>
+                        <p class="card-text">Our divine peruvian flavoured cheesy sauce, topped with sweet corn, green
+                            capsicum, red paprika and 100% mozzarella cheese, finished with a generous drizzle of texas
+                            garlic sauce.</p>
+                        <br>
+                        
+                    </div>
+                    <button type="button" class="btn btn-block ">view more</button>
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card" style="width:260px">
+                    <img class="card-img-top"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/mexican-fiesta.559a1961ca021b8fb90367c6918e50f1.1.jpg"
+                        alt="pizza he pizza" style="width:100%">
+                    <div class="card-body">
+                        <h6 class="card-title">Mexican Fiesta</h6>
+                        <p class="card-text">Flavourful mix of red capsicum, green capsicum, jalapeno, onion, black
+                            olives, sweet corn and 100% mozzarella Cheese with a signature spice sprinkle & our
+                            flavourful pan sauce.</p>
+                        <br><br>
+                    </div>
+                    <button type="button" class="btn btn-block ">view more</button>
+
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card" style="width:260px">
+                    <img class="card-img-top"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg"
+                        alt="pizza he pizza" style="width:100%">
+                    <div class="card-body">
+                        <h6 class="card-title"> Margherita</h6>
+                        <p class="card-text">Pizza topped with our herb-infused signature pan sauce and 100% mozzarella
+                            cheese. A classic treat for all cheese lovers out there!.</p>
+                        <br><br><br>
+                    </div>
+                    <button type="button" class="btn btn-block ">view more</button>
+
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card" style="width:260px">
+                    <img class="card-img-top"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-paneer.4ef45717e972cf45b43c010e3cde5a22.1.jpg"
+                        alt="pizza he pizza" style="width:100%">
+                    <div class="card-body">
+                        <h6 class="card-title">Tandoori Paneer</h6>
+                        <p class="card-text">It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy
+                            Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!</p>
+                        <br><br>
+
+                    </div>
+                    <button type="button" class="btn btn-block ">view more</button>
+
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card" style="width:260px">
+                    <img class="card-img-top"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veggie-supreme.bc8dd369182b636ff171077efa53c344.1.jpg"
+                        alt="pizza he pizza" style="width:100%">
+                    <div class="card-body">
+                        <h6 class="card-title">Veggie Supreme</h6>
+                        <p class="card-text">A supreme combination of Black Olives, Green Capsicum, Mushroom, Onion,
+                            spicy Red Paprika & juicy Sweet Corn with flavourful pan sauce and 100% mozzarella cheese.
+                        </p>
+                        <br>
+                    </div>
+                    <button type="button" class="btn btn-block ">view more</button>
+
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card" style="width:260px">
+                    <img class="card-img-top"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg"
+                        alt="pizza he pizza" style="width:100%">
+                    <div class="card-body">
+                        <h6 class="card-title">Margherita</h6>
+                        <p class="card-text">pizza topped with our herb-infused signature pan sauce and 100% mozzarella
+                            cheese. A classic treat for all cheese lovers out there!.</p>
+                        <br><br>
+                    </div>
+                    <button type="button" class="btn btn-block ">view more</button>
+
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card" style="width:260px">
+                    <img class="card-img-top"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/schezwan-margherita.4371d9483546db47a97c5503ccad0c2f.1.jpg"
+                        alt="pizza he pizza" style="width:100%">
+                    <div class="card-body">
+                        <h6 class="card-title">Schezwan Margherita</h6>
+                        <p class="card-text">Your very own Margherita, now with a spicy twist! Loaded with our signature
+                            spicy schezwan sauce & 100% mozzarella cheese.</p>
+                        <br><br>
+                    </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card" style="width:260px">
+                    <img class="card-img-top"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/corn.f8baa08ad7f607f1de30f96bb9245b50.1.jpg"
+                        alt="pizza he pizza" style="width:100%">
+                    <div class="card-body">
+                        <h6 class="card-title"> Corn & Cheese</h6>
+                        <p class="card-text">A combination of juicy Sweet Corn & 100% mozzarella cheese with flavourful
+                            signature pan sauce.</p>
+                        <br><br><br>
+                    </div>
+                    <button type="button" class="btn btn-block ">view more</button>
+
+                </div>
+                <hr>
+            </div>
+
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veggie-feast.3777f9846c8e993276a25838b8737ea7.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Veggie Feast</h6>
+                            <p class="card-text">Herbed onion and Green Capsicum, juicy Sweet Corn & 100% mozzarella
+                                cheese with flavourful pan sauce.
+                            </p>
+                            <br><br><br><br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/spiced-paneer.e577e25023a1baeb72b6381bf6692a73.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Spiced Paneer</h6>
+                            <p class="card-text">Spiced Paneer, crunchy Onion, juicy Tomato & 100% mozzarella cheese,
+                                with our classic pan sauce.</p>
+                            <br><br><br><br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/schezwan-margherita.4371d9483546db47a97c5503ccad0c2f.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Mexican Fiesta</h6>
+                            <p class="card-text">Flavourful mix of red capsicum, green capsicum, jalapeno, onion, black
+                                olives, sweet corn and 100% mozzarella cheese with a signature spice sprinkle & our
+                                flavourful pan sauce.</p>
+                            <br><br>
+                            
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/cheezy-mushroom-magic.40d9989d4e84c2d302a338da3dfa7140.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title"> Cheezy Mushroom Magic</h6>
+                            <p class="card-text">A new combination with creamy mushroom sauce, chunky black olives,
+                                spicy jalapeno, juicy sweet corn, mushroom and 100% mozzarella cheese with garlic
+                                sprinkle for extra flavour hit..</p>
+                            <br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-paneer.4ef45717e972cf45b43c010e3cde5a22.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Tandoori Paneer</h6>
+                            <p class="card-text">It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum,
+                                spicy
+                                Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!</p>
+                            <br><br>
+
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/country-feast.e4032b4f076b2f961cac86d15af1a0f5.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Country Feast</h6>
+                            <p class="card-text">Loaded with Herbed Onion & Green capsicum, Sweet Corn, Tomato with
+                                signature pan sauce and 100% Mozzarella cheese. It's a feast you can't refuse.</p>
+                            <br><br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/schezwan-margherita.4371d9483546db47a97c5503ccad0c2f.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Ultimate Tandoori Veggie</h6>
+                            <p class="card-text">An ultimate combination of your favourite veggies- onion, green
+                                capsicum, mushroom, tomato, spicy jalapeno on tandoori sauce, topped with 100%
+                                mozzarella cheese & generous drizzle of mint mayo.</p>
+                            <br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/mazedar-makhni-paneer.cb3150d2be9cb8dcd248be70921c5196.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Mazedar Makhni Paneer</h6>
+                            <p class="card-text">A treat for all makhni lovers. Spiced paneer, onion, juicy red bell
+                                peppers with our new flavourful makhni sauce, topped with 100% mozzarella cheese and
+                                buttery spice sprinkle</p>
+                            <br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/awesome-american-cheesy.17f198e5a73db40c367ddfe96da54a4c.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Awesome American Cheesy</h6>
+                            <p class="card-text">Our divine peruvian flavoured cheesy sauce, topped with sweet corn,
+                                green
+                                capsicum, red paprika and 100% mozzarella cheese, finished with a generous drizzle of
+                                texas
+                                garlic sauce.</p>
+                            <br>
+                        </div>
+                            <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/mexican-fiesta.559a1961ca021b8fb90367c6918e50f1.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Mexican Fiesta</h6>
+                            <p class="card-text">Flavourful mix of red capsicum, green capsicum, jalapeno, onion, black
+                                olives, sweet corn and 100% mozzarella Cheese with a signature spice sprinkle & our
+                                flavourful pan sauce.</p>
+                            <br><br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title"> Margherita</h6>
+                            <p class="card-text">Pizza topped with our herb-infused signature pan sauce and 100%
+                                mozzarella
+                                cheese. A classic treat for all cheese lovers out there!.</p>
+                            <br><br><br>
+                        </div>
+                            <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-paneer.4ef45717e972cf45b43c010e3cde5a22.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Tandoori Paneer</h6>
+                            <p class="card-text">It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum,
+                                spicy
+                                Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!</p>
+                            <br><br>
+
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veggie-feast.3777f9846c8e993276a25838b8737ea7.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Veggie Feast</h6>
+                            <p class="card-text">Herbed onion and Green Capsicum, juicy Sweet Corn & 100% mozzarella
+                                cheese with flavourful pan sauce.
+                            </p>
+                            <br><br><br><br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/spiced-paneer.e577e25023a1baeb72b6381bf6692a73.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Spiced Paneer</h6>
+                            <p class="card-text">Spiced Paneer, crunchy Onion, juicy Tomato & 100% mozzarella cheese,
+                                with our classic pan sauce.</p>
+                            <br><br><br><br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/schezwan-margherita.4371d9483546db47a97c5503ccad0c2f.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Mexican Fiesta</h6>
+                            <p class="card-text">Flavourful mix of red capsicum, green capsicum, jalapeno, onion, black
+                                olives, sweet corn and 100% mozzarella cheese with a signature spice sprinkle & our
+                                flavourful pan sauce.</p>
+                            <br><br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/cheezy-mushroom-magic.40d9989d4e84c2d302a338da3dfa7140.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title"> Cheezy Mushroom Magic</h6>
+                            <p class="card-text">A new combination with creamy mushroom sauce, chunky black olives,
+                                spicy jalapeno, juicy sweet corn, mushroom and 100% mozzarella cheese with garlic
+                                sprinkle for extra flavour hit..</p>
+                            <br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-mushroom-&-sweet-corn-pan-personal.49a1287d1cece07781c106e552979fa2.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Tandoori Mushroom & Sweet Corn</h6>
+                            <p class="card-text">Pizza topped with our signature tandoori sauce, juicy mushroom, sweet
+                                corn and cheesy dressing.
+                            </p>
+                            <br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/schezwan-corn-&-capsicum-pan-personal.23c83846270110a536b40ec74529e907.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Schezwan Corn & Capsicum</h6>
+                            <p class="card-text">Pizza topped with Spicy Schezwan sauce, sweet corn & crunchy capsicum
+                                and cheesy dressing..</p>
+                            <br><br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/only-cheesy-pan-personal.951dbe6ee07dafc48e04fe9a1bbe4ddb.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title">Only Cheesy</h6>
+                            <p class="card-text">Pizza topped with cheesy dressing and mozzarella cheese for that
+                                extraaa cheesy flavor.</p>
+                            <br><br><br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width:260px">
+                        <img class="card-img-top"
+                            src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/classic-paneer-capsicum-&-onion-pan-personal.ae2c5f3e3e5881af1f31e65cb9526289.1.jpg"
+                            alt="pizza he pizza" style="width:100%">
+                        <div class="card-body">
+                            <h6 class="card-title"> Classic Paneer Capsicum & Onion</h6>
+                            <p class="card-text">Pizza topped with our Classic Pan sauce, flavorful paneer, crunchy
+                                onion & capsicum and cheesy dressing.</p>
+                            <br>
+                        </div>
+                        <button type="button" class="btn btn-block ">view more</button>
+
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3" style="margin-top: 50px;">
+                    <h6>Order Now</h6>
+                    <a class="link" href="#">
+                        <p
+                            style="color: white; margin-right: 50px; text-align: left; padding-left: 65px; font-size: smaller; overflow-x: hidden;padding-left: 28px;text-align: left;">
+                            Deals<br>
+                            Pizza<br>
+                            Sides<br>
+                            Drinks<br>
+                            Desserts<br>
+                        </p>
+                    </a>
+                </div>
+
+                <div class=" col-lg-3" style="margin-top: 50px;">
+                    <h5>About Us</h5>
+                    <a class="link" href="#">
+                        <p
+                            style="color: white; margin-right: 50px; text-align: left; padding-left: 65px; font-size: smaller; overflow-x: hidden;padding-left: 28px;text-align: left;">
+                            About Us <br>
+                            Contactless Delivery<br>
+                            Nutrition
+                        </p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3" style="margin-top: 50px;">
+                    <h5>Our Policies</h5>
+                    <a class="link" href="#">
+                        <p
+                            style="color: white; margin-right: 50px; text-align: left; padding-left: 55px; font-size: smaller;overflow-x: hidden;padding-left: 18px; text-align: left;">
+                            Terms & Conditions<br>
+                            FAQs & Help
+                        </p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3" style="margin-top: 50px;">
+                    <h5>Visit Pizza Hut</h5>
+                    <a class="link" href="#">
+                        <p
+                            style="color: white; margin-right: 50px; text-align: left; padding-left: 48px; font-size: smaller;padding-left: 10px; text-align: left;">
+                            Locate a store<br>
+                            Global Blog
+                        </p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-2">
+                    <a class="link" href="#"><img
+                            src="https://www.pizzahut.co.in/_next/static/static/images/ios.8bab50976228b57b171b916a98ddfd11.svg"
+                            width="150px" height="45px"></a>
+                </div>
+                <div class="col-lg-2">
+                    <a class="link" href="#"><img
+                            src="https://www.pizzahut.co.in/_next/static/static/images/android.b1ffb9f40420b63efe43e34f60bfb682.png"
+                            width="150px" height="45px" style="margin-left: -10px;"></a>
+                </div>
+
+                <div class="col-lg-4"></div>
+            </div>
+            <div class="row" style="margin-top: 40px;">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3">
+                    <p>Help us in serving you better</p>
+                </div>
+                <div class="col-lg-2">
+                    <button type="button" class="btn btn-light btn-primary"
+                        style="margin-left: -50px;height: 30px;">Give Feedback</button>
+                </div>
+
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2" style="margin-left: -60px; margin-top: -5px;">
+                    <h5 style="margin: left 20px;">Follow us</h5>
+                    <img src="https://www.pizzahut.co.in/_next/static/static/images/social/white-facebook.7cce5c98cdf27ef51601f3650f73b465.png"
+                        alt="facebook" class="css-15d2ttn">
+                    <img src="https://www.pizzahut.co.in/_next/static/static/images/social/white-twitter.ef766a459cb51bbdaf9b24eaa5d21289.png"
+                        alt="twitter" class="css-15d2ttn">
+                    <img src="https://www.pizzahut.co.in/_next/static/static/images/social/white-instagram.cf20de72a775ca841c887ea845457fa0.png"
+                        alt="instagram" class="css-15d2ttn">
+                    <img src="https://www.pizzahut.co.in/_next/static/static/images/social/white-youtube.c5d3435334b39f9535c1eeb639938a30.png"
+                        alt="yotube" class="css-15d2ttn">
+                </div>
+
+                <div class="col-lg-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12" style="margin-top: 30px; margin-bottom: 10px;">
+                    <p style="font-size: 0.7rem; color: #6f7880; text-align: center;">
+                        Order a delicious pizza on the go, anywhere, anytime. Pizza Hut is happy to assist you with your
+                        home delivery. Every time you order, you get a hot and fresh pizza delivered at your doorstep in
+                        less than thirty<br>
+                        minutes. *T&C Apply.<br>
+                        Hurry up and place your order now!<br>
+                        © 2022 Pizza Hut India. All rights reserved. License Number: 10017011004220
+                    </p>
+                </div>
+            </div>
+</body>
+
+ 
+</html>
